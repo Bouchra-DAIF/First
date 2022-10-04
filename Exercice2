@@ -1,0 +1,14 @@
+def my_function () :
+ r = input("Entrez la rayon de disk:")
+ Pr = input ("Entrez la pression")
+ try:
+    r = float (r)
+    P = 3.14
+    S = P*(r**2)/2
+    print (S)
+    Pr = float (Pr)
+    F=S*Pr
+    print("La force est", F)
+ except:
+    print("Erreur, la valeur de la pression ou le rayon")
+my_function

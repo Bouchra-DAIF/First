@@ -1,0 +1,21 @@
+def my_function () :
+ print("Question 1")
+ H = input ("Entrez la Hauteur de Barrage : ")
+ try:
+    Mveau = 1000
+    g = 9.80
+    H = float(H)
+    P = Mveau*g*H
+    print("La pression en bas du barrage est", P)
+ except:
+    print("erreur en Hauteur")
+ print("Question 2:")
+ S = input ("Entrez la surface du barrage : ")
+ try:
+    S = float(S)
+    F = S*P
+    print("La force exercée sur la surface de barrage est", F)
+ except:
+    print("Reécrire la surface de barrage")
+my_function
+    

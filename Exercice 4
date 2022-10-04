@@ -1,0 +1,11 @@
+def my_function () :
+ P = input("Entrez la pression P : ")
+ S = input("Entrez la surface de récipient : ")
+ try: 
+    P = float(P)
+    S = float(S)
+    F = P*S
+    print ("La force exercée est", F)
+ except:
+    print("Réecrire la pression ou/et la surface")
+my_function
